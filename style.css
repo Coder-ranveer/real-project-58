@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background: linear-gradient(green 0%, yellow 100%);
+  background-repeat: no-repeat;
+}
+img {
+  border-radius: 50%;
+  width: 500px;
+}
+
+h1 {
+  text-shadow: 2px;
+  font-size: 20px;
+}
+p {
+  font-size: 25px;
+}
+.li {
+  float: right;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+}
+.menu {
+  list-style: none;
+  position: absolute;
+  top: 10px;
+  left: -45px;
+  font-family: sans-serif;
+  cursor: pointer;
+  z-index: 10;
+}
